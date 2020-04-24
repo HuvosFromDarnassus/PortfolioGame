@@ -1,0 +1,27 @@
+body {
+  background-color: #1d1e20;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 60px;
+  font-family: "Verdana", sans-serif;
+  color: khaki;
+}
+
+canvas {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  border: 4px hotpink solid;
+}
+
+h4 {
+  text-align: center;
+  font-family: "Verdana", sans-serif;
+  margin-top: -20px;
+  color: hotpink;
+}
