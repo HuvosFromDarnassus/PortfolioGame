@@ -67,7 +67,7 @@ function draw() {
           yPos + bird.height >= pipe[i].y + pipeUp.height + gap)) ||
       yPos + bird.height >= cvs.height - fg.height
     ) {
-      //alert("YOU ARE LOSE\n\n    Play Again?");
+      alert("YOU ARE LOSE\n\n    Play Again?");
       location.reload(); // Перезагрузка страницы
     }
 
