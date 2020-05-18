@@ -1,12 +1,16 @@
 body {
-  background-color: #1d1e20;
+  font-family: "PressPlay-regular", "Helvetica", "Arial", sans-serif;
+  font-size: 15px;
+  line-height: 32px;
+  color: white;
+  background-color: #302683;
 }
 
 h1 {
+  font-size: x-large;
   text-align: center;
   padding-top: 60px;
-  font-family: "Verdana", sans-serif;
-  color: khaki;
+  color: white;
 }
 
 canvas {
@@ -16,12 +20,13 @@ canvas {
   bottom: 0;
   left: 0;
   margin: auto;
-  border: 4px hotpink solid;
+  border: 5px #ec5a35 solid;
+
 }
 
 h4 {
+  font-size: small;
   text-align: center;
-  font-family: "Verdana", sans-serif;
   margin-top: -20px;
-  color: hotpink;
+  color: #4eb543;
 }
