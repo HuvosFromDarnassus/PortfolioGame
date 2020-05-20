@@ -4,6 +4,12 @@ body {
   line-height: 32px;
   color: white;
   background-color: #302683;
+  background-image: linear-gradient(#3c328a 1px, transparent 1px),
+    linear-gradient(90deg, #3c328a 1px, transparent 1px),
+    linear-gradient(#3c328a 1px, transparent 1px),
+    linear-gradient(90deg, #3c328a 1px, transparent 1px);
+  background-size: 20px 20px, 20px 20px, 80px 80px, 80px 80px;
+  background-position: 0 0, 0 0, -1px -1px, -1px -1px;
 }
 
 h1 {
@@ -21,7 +27,6 @@ canvas {
   left: 0;
   margin: auto;
   border: 5px #ec5a35 solid;
-
 }
 
 h4 {
